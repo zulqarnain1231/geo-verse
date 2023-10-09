@@ -60,6 +60,7 @@ const Navbar = () => {
             <button className="h-[52px] w-[160px] lg:inline-block hidden bg-brand-main rounded-2xl text-white-main text-lg font-bold ">
               Connect Wallet
             </button>
+            <span className="h-[52px] w-[2px] lg:inline-block hidden bg-white-off/30"></span>
             <button className="lg:inline-block hidden">
               <FiSettings className="text-white-main text-3xl" />
             </button>
