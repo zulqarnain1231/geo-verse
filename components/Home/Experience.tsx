@@ -1,14 +1,14 @@
 import React from "react";
-import ComponentWrapper from "./Shared/Wrappers/ComponentWrapper";
-import SectionHeading from "./Shared/Typography/SectionHeading";
-import ParagraphText from "./Shared/Typography/ParagraphText";
-import NextImage from "./Shared/Image/NextImage";
+import ComponentWrapper from "../Shared/Wrappers/ComponentWrapper";
+import SectionHeading from "../Shared/Typography/SectionHeading";
+import ParagraphText from "../Shared/Typography/ParagraphText";
+import NextImage from "../Shared/Image/NextImage";
 
 const Experience = () => {
   return (
     <ComponentWrapper
       id="experience"
-      style="lg:py-16 py-10 bg-[url('/Assets/Experience/Earth.png')] bg-no-repeat bg-contain bg-center"
+      style="lg:py-16 py-10 bg-[url('/Assets/Experience/Earth.png')] bg-no-repeat bg-cover bg-center"
     >
       <div className="w-full flex flex-col items-center justify-start gap-6">
         <div className="w-full grid lg:grid-cols-[2fr,1fr] gap-8">

@@ -1,6 +1,7 @@
-import Experience from "@/components/Experience";
+import Experience from "@/components/Home/Experience";
 import Features from "@/components/Home/Features/Features";
 import Hero from "@/components/Home/Hero";
+import Legacy from "@/components/Home/Legacy";
 import Web3Redefined from "@/components/Home/Web3Redefined";
 import Navbar from "@/components/Shared/Navigations/Navbar";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Web3Redefined />
       <Features />
       <Experience />
+      <Legacy />
     </main>
   );
 }
