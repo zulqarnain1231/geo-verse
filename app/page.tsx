@@ -1,3 +1,4 @@
+import Experience from "@/components/Experience";
 import Features from "@/components/Home/Features/Features";
 import Hero from "@/components/Home/Hero";
 import Web3Redefined from "@/components/Home/Web3Redefined";
@@ -15,6 +16,7 @@ export default function Home() {
       </section>
       <Web3Redefined />
       <Features />
+      <Experience />
     </main>
   );
 }
