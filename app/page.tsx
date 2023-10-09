@@ -1,3 +1,4 @@
+import Features from "@/components/Home/Features/Features";
 import Hero from "@/components/Home/Hero";
 import Web3Redefined from "@/components/Home/Web3Redefined";
 import Navbar from "@/components/Shared/Navigations/Navbar";
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
       </section>
       <Web3Redefined />
+      <Features />
     </main>
   );
 }

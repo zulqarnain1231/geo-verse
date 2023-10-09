@@ -17,7 +17,7 @@ const Web3Redefined = () => {
           procedurally generated universe. Geoverse incorporates multiple layers
           within its maps, including caves, landscapes, and buildings, allowing
           for a rich and diverse gameplay environment."
-          width="lg:w-[70%] w-full"
+          width="lg:w-[60%] w-full"
         />
       </div>
     </ComponentWrapper>
