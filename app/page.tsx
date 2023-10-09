@@ -4,6 +4,7 @@ import Followers from "@/components/Home/Followers";
 import Hero from "@/components/Home/Hero";
 import Legacy from "@/components/Home/Legacy";
 import Web3Redefined from "@/components/Home/Web3Redefined";
+import Footer from "@/components/Shared/Navigations/Footer";
 import Navbar from "@/components/Shared/Navigations/Navbar";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Experience />
       <Legacy />
       <Followers />
+      <Footer />
     </main>
   );
 }
