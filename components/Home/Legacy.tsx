@@ -6,7 +6,7 @@ import NextImage from "../Shared/Image/NextImage";
 
 const Legacy = () => {
   return (
-    <ComponentWrapper id="legacy" style="lg:py-16 py-10">
+    <ComponentWrapper id="legacy" style="lg:py-20 py-10">
       <div className="w-full flex flex-col items-center justify-start gap-10">
         <SectionHeading text=" Forge Your Legacy" />
         <ParagraphText

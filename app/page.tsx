@@ -1,5 +1,6 @@
 import Experience from "@/components/Home/Experience";
 import Features from "@/components/Home/Features/Features";
+import Followers from "@/components/Home/Followers";
 import Hero from "@/components/Home/Hero";
 import Legacy from "@/components/Home/Legacy";
 import Web3Redefined from "@/components/Home/Web3Redefined";
@@ -19,6 +20,7 @@ export default function Home() {
       <Features />
       <Experience />
       <Legacy />
+      <Followers />
     </main>
   );
 }
