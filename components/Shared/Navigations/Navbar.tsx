@@ -35,7 +35,7 @@ const Navbar = () => {
     <>
       <ComponentWrapper
         id="navbar"
-        style="w-full h-[80px] bg-black-main/20 backdrop-blur-sm"
+        style="w-full fixed h-[80px] bg-black-main/20 backdrop-blur-sm z-20"
       >
         <nav className="w-full h-full flex items-center justify-between">
           <Link href={"/"} className="w-[140px] h-[54px] relative">
@@ -46,25 +46,25 @@ const Navbar = () => {
               fill
             />
           </Link>
-          <div className="h-full flex items-center justify-center gap-8">
+          <div className="h-full flex items-center justify-center lg:gap-8 gap-3 md:gap-5">
             {menu.map((item: any, index: number) => (
               <Link
                 key={index}
                 href={item.route}
-                className="text-white-main text-base font-semibold md:inline-block hidden"
+                className="text-white-main text-base font-semibold lg:inline-block hidden"
               >
                 {item.name}
               </Link>
             ))}
 
-            <button className="h-[52px] w-[160px] lg:inline-block hidden bg-brand-main rounded-2xl text-white-main text-lg font-bold ">
+            <button className="sm:h-[52px] h-[48px] sm:w-[160px] w-[140px] bg-brand-main rounded-2xl text-white-main sm:text-lg text-base font-bold ">
               Connect Wallet
             </button>
-            <span className="h-[52px] w-[2px] lg:inline-block hidden bg-white-off/30"></span>
-            <button className="lg:inline-block hidden">
+            <span className="h-[52px] w-[2px] md:inline-block hidden bg-white-off/30"></span>
+            <button className="md:inline-block hidden">
               <FiSettings className="text-white-main text-3xl" />
             </button>
-            <button onClick={toggleDrawer} className="md:hidden inline-block">
+            <button onClick={toggleDrawer} className="lg:hidden inline-block">
               <FiMenu className="text-white-main text-2xl" />
             </button>
           </div>

@@ -10,7 +10,7 @@ const SectionHeading: React.FC<Props> = ({
 }: Props) => {
   return (
     <h2
-      className={`text-white-main sm:text-6xl text-[40px] font-semibold capitalize ${alignment}`}
+      className={`text-white-main sm:text-6xl sm:leading-[67px] text-[40px] font-semibold capitalize ${alignment}`}
     >
       {text}
     </h2>

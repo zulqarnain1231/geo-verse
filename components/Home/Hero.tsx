@@ -4,13 +4,13 @@ import NextImage from "../Shared/Image/NextImage";
 
 const Hero = () => {
   return (
-    <ComponentWrapper style="bg-transparent h-auto lg:h-[calc(100dvh-80px)] lg:mt-0 mt-10">
+    <ComponentWrapper style="bg-transparent h-auto lg:h-[calc(100dvh-80px)] lg:pt-36 pt-32">
       <div className="w-full h-full grid lg:grid-cols-2 gap-8">
-        <aside className="w-full h-full flex flex-col items-start justify-center gap-8">
+        <aside className="w-full h-full flex flex-col items-start justify-center sm:gap-8 gap-10">
           <h1 className="text-white-main sm:text-7xl text-5xl font-extrabold">
             The Gateway to Endless Realms
           </h1>
-          <p className="text-white-off sm:text-lg text-base font-medium lg:w-[80%] w-full">
+          <p className="text-white-off text-lg font-medium lg:w-[80%] w-full">
             Geoverse is an ever expanding universe of interconnected adventures
             and experiences, crafted for limitless exploration.
           </p>

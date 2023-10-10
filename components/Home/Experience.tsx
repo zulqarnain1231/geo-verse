@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <ComponentWrapper
       id="experience"
-      style="lg:py-16 py-10 bg-[url('/Assets/Experience/Earth.png')] bg-no-repeat bg-cover bg-center"
+      style="lg:py-16 py-10 bg-[url('/Assets/Experience/Earth.png')] bg-no-repeat bg-cover bg-top"
     >
       <div className="w-full flex flex-col items-center justify-start gap-6">
         <div className="w-full grid lg:grid-cols-[2fr,1fr] gap-8">
