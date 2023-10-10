@@ -7,7 +7,7 @@ const Web3Redefined = () => {
   return (
     <ComponentWrapper
       id=""
-      style="lg:py-20 py-12 lg:-mt-16 bg-[url('/Assets/Web3/Wave.png')] bg-cover bg-no-repeat bg-top"
+      style="lg:py-20 3xl:py-60 py-12 lg:-mt-16 bg-[url('/Assets/Web3/Wave.png')] bg-cover bg-no-repeat bg-top"
     >
       <div className="w-full h-full flex flex-col items-center justify-center gap-10 pt-36">
         <SectionHeading text="web3 gaming: redefined" />
