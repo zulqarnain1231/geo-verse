@@ -35,7 +35,7 @@ const Navbar = () => {
     <>
       <ComponentWrapper
         id="navbar"
-        style="w-full fixed h-[80px] bg-black-main/20 backdrop-blur-sm z-20"
+        style="w-full fixed h-[80px] bg-black-main/20 backdrop-blur-md z-20"
       >
         <nav className="w-full h-full flex items-center justify-between">
           <Link href={"/"} className="w-[140px] h-[54px] relative">
